@@ -32,6 +32,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise'
+gem 'bootstrap', '~> 4.0.0'
+gem 'sprockets-rails', '~> 3.2.1'
+
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
