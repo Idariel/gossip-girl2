@@ -5,7 +5,7 @@
 <ul>
   <% if user_signed_in? %>
     <li><h3><%= link_to 'Déconnexion', destroy_user_session_path, method: :delete %></h3></li>
-    <li><h3><%= current_user.email %></h3></li>
+    <li><h3><%= current_user.pseudo %></h3></li>
     <li><h3><%= link_to 'Modifier le compte', edit_user_registration_path %></h3></li>
     <br />
   <% else %>
