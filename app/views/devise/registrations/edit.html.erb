@@ -1,3 +1,5 @@
+<%= render 'home/header' %>
+
 <div class="container-fluid bg-image">
   <div class="row">
     <div class="col-sm-12">
@@ -16,7 +18,7 @@
       <%= devise_error_messages! %>
 
       <div class="field">
-        <%= f.label :pseudo pseudo %><br />
+        <%= f.label :pseudo %><br />
         <%= f.text_field :pseudo %>
       </div>
 
