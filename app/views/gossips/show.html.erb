@@ -1,0 +1,17 @@
+<%= render 'home/header' %>
+
+<h2>Nouveau Gossip</h2>
+
+<table>
+  <tr>
+    <th></th>
+    <th>Pseudo</th>
+    <th>Gossip</th>
+  </tr>
+  <tr>
+    <td><%= @gossip.pseudo %></td>
+    <td><%= @gossip.content %></td>
+  </tr>
+</table>
+<p><%= link_to 'Ecrire un autre Gossip', new_gossip_path %></p>
+<p><%= link_to 'Afficher tous les Gossip', root_path %></p>
